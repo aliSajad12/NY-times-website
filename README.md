@@ -2,4 +2,4 @@
 
 **New York Times Website clone**
 
-live-site: 
+live-site: https://alisajad12.github.io/NY-times-website/
