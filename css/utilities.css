@@ -1,0 +1,120 @@
+/*Font Families*/
+@font-face {
+    font-family: titleFont;
+    src: url(../fonts/titles/Vremyafwf-Rp1e.ttf);
+}
+
+@font-face {
+    font-family: p-font;
+    src: url(../fonts/paragraph/Lora-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+html{
+    font-size: 16px;
+    scroll-padding-top: 85px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fefff4;
+}
+
+:root{
+    --var-base-color: #121212;
+    --var-p-color: #3a3a3a;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #818181;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button.primary-btn{
+    padding: 7px 0;
+    background-color: #567b95;
+    border: 1px solid #395669;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+button.primary-btn a{
+    color: white;
+    padding: 7px 15px;
+}
+
+button.primary-btn:hover{
+    background-color: #3a5f79;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.small{
+    font-size: 11px;
+    color: #37be37;
+}
+
+.txt-live{
+    color: #ec2d2d;
+    margin-right: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.txt-timer{
+    font-size: 11px;
+    color: #ec2d2d;
+}
+
+.mobile-show{
+    display: none;
+}
+
+@media(max-width: 1100px){
+    .mobile-show{
+        display: block;
+    }
+}
+
+.desktop-show{
+    display: block;
+}
+
+.main-title{
+    font-size: 2rem;
+    font-family: titleFont;
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+p{
+    line-height: 1.5;
+    font-family: p-font;
+}
+
+#hideMenu{
+    display: none;
+    font-size: 1.5rem;
+}
